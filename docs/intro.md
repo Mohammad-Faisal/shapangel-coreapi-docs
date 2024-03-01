@@ -22,7 +22,7 @@ You will get a token in response. Use this token in the header with `Authorizati
 An example of a request with a token in the header
 
 ```bash
-curl -X GET "https://api.shipangel.com/v1/shipments" -H "Authorization: Bearer <token>"
+curl -X GET "https://coreapi.shipangel.ai/rates" -H "Authorization: Bearer <token>"
 ```
 
 Also you can try out teh API in our [Swagger](https://coreapi.shipangel.ai/swagger-ui/) documentation.
